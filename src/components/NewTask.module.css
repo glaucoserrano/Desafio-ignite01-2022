@@ -1,0 +1,94 @@
+.newTask{
+  display: flex;
+  justify-content: center;
+  margin-top: calc(0px - 1.5rem - 6px);
+}
+
+.textNewTask input{
+  height: 3.375rem;
+  width: 39.875rem;
+  border-radius: 8px;
+  border: 1p solid var(--gray-700);
+  padding: 16px;
+  background: var(--gray-500);
+  color:var(--gray-200);
+  line-height: 1.4;
+}
+.buttonNewTask{
+  padding-left: 0.5rem;
+}
+.buttonNewTask button{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 3.25rem;
+  width: 5.625rem;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  transition: background-color 0.1s;
+  border: none;
+}
+.buttonNewTask button:hover{
+  background: var(--blue);
+}
+.buttonNewTask button svg{
+  margin-left: 0.5rem;
+}
+.tasks{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 736px;
+  height: 287px;
+  left: calc(50% - 736px/2);
+  top: 291px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  border-bottom: 1.5rem;
+}
+.createdTasks{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  color: var(--blue);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  gap:0.5rem;
+}
+.Quantity{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 10px;
+  background: var(--gray-400);
+  border-radius: 999px;
+  color:var(--gray-200);
+
+}
+.finishTasks{
+  display: flex;
+  flex-direction: row;
+  color: var(--purple);
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  gap:0.5rem;
+}

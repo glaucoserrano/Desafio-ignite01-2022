@@ -1,0 +1,42 @@
+.list{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+
+  width: 736px;
+  height: 72px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.06);
+  border-radius: 8px;
+  
+  justify-content: space-between;
+}
+.checkBox{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+}
+.checkBox :checked{
+  background: var(--danger);
+}
+.list button{
+  background: transparent;
+  border: 0;
+  color: var(--gray-300);
+  transition: color 0.1s;
+}
+.list button:hover{
+  color: var(--danger);
+}
+.list p{
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: var(--gray-100);
+
+}
